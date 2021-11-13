@@ -1,0 +1,564 @@
+/* 
+Theme Name: Montana Moving Solutions Custom Theme
+Theme URI: https://montanamovingsolutions.com
+Author: Flathead Development
+Author URI: https://flatheaddev.com
+Description: Custom Theme for Montana Moving Solutions
+Version: 1.0
+License: GNU General Public License v2 or later
+Licence URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+
+@-ms-viewport{
+  width: device-width;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: "Montserrat", sans-serif;
+}
+
+.big {
+  display: block;
+}
+
+/*-------------------------------------- Hero Section --------------------------------------*/
+#heroSection {
+  background-size: 100% 100% !important;
+  position: relative;
+  height: 750px;
+  width: 100%;
+}
+
+#heroRow {
+  height: 750px;
+  width: 100%;
+}
+
+#heroTitle {
+  color: #f8f4f4;
+  text-align: center;
+  font-size: 4rem;
+  font-family: monospace;
+}
+
+#heroTitleCol {
+  margin-top: 50px;
+}
+
+/*-------------------------------------- Contact Container --------------------------------------*/
+#contactContainer {
+  min-height: 350px;
+  max-height: 450px;
+  width: 800px;
+  position: relative;
+  bottom: 100px;
+  left: 250px;
+  background-color: #191919;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+  z-index: 500;
+}
+
+#contactContainer h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: white;
+}
+
+#buttonAlignment {
+  padding: 10px;
+  text-align: center !important;
+}
+
+.customButton {
+  background-color:rgba(224, 2, 1, .9);
+  border-color: rgba(224, 2, 1, 1);
+}
+
+/*-------------------------------------- Sidebar Area --------------------------------------*/
+.sidebarHeading {
+  background-color: #2052b3;
+  color: white;
+}
+
+/*-------------------------------------- First Body Text Area --------------------------------------*/
+#topBodySection {
+  text-align: justify;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+#topBodySection h1 {
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+  text-align: center;
+}
+
+.bodySection h1,h2{
+  margin: 15px 25px;
+}
+
+/*-------------------------------------- About Section --------------------------------------*/
+#aboutSection h1 {
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+}
+
+.bodyContent {
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+
+.layeredWhiteBox {
+  background-color: white;
+  padding: 5px;
+}
+
+
+.whiteCardboard p {
+  font-size: 1.5em;
+}
+
+.whiteCardboard h2 {
+  font-size: 3em;
+  margin-top: 200px;
+  display: inline-block;
+  width: inherit;
+  position: relative;
+  left: 25px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+/*-------------------------------------- Divider Section --------------------------------------*/
+#dividerContainer {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+#callUsHeader {
+  display: inline-block;
+  background-color: #2052b3;
+  height: 100%;
+  width: 600px;
+  padding: 10px;
+  padding-left: 35px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#callUsHeader a {
+  color: white;
+}
+
+#callUsNumber {
+  display: inline-block;
+  background-color: #e00201;
+  height: 6rem;
+  width: 250px;
+  padding: 15px 5px;
+  position: relative;
+  bottom: 80px;
+  left: 125px;
+  border-radius: 5px;
+}
+
+#callUsNumber a {
+  color: white;
+}
+
+/*-------------------------------------- Services Section --------------------------------------*/
+.serviceSection {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.serviceSection div {
+  margin: auto;
+}
+
+.cardWidget {
+  text-align: center !important;
+  width: 500px;
+  overflow: hidden;
+}
+
+.cardWidget img {
+  height: 300px !important;
+}
+
+/*-------------------------------------- Team Section --------------------------------------*/
+.teamSection {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.teamSection h2 {
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+}
+
+.teamSection .font-weight-medium {
+  font-weight: 500;
+}
+
+.teamSection h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+
+.teamSection .subtitle {
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.circleImageDiv {
+  text-align: center;
+  margin-bottom: -25px;
+}
+
+/*-------------------------------------- Footer --------------------------------------*/
+#footer {
+  background-color: white !important;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+#footer-widget-area {
+  text-align: center;
+}
+
+.footer_widget {
+  text-align: center !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footerIMG {
+  text-align: center;
+  margin: auto;
+}
+
+#menu-menu-1 a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu-menu-1 li {
+  text-decoration: none;
+  padding: 12px 5px;
+}
+
+#footerList {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#footerList ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footerList ul li a {
+  text-decoration: none;
+}
+
+ul#footerNavMenu li {
+  display: inline-block;
+}
+
+.footerNav {
+  color: white !important;
+  text-decoration: none;
+}
+
+.borderCopy {
+  border-top: 1px solid white !important;
+}
+
+/*-------------------------------------- Media Queries for Main Content --------------------------------------*/
+/*-------------------------------------- 4k Screen Support --------------------------------------*/
+@media (max-width:3840px) and (min-width: 2500px) {
+  #contactContainer {
+    min-height: 400px;
+    max-height: 550px;
+    width: 1250px;
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+    background-color: #191919;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+    z-index: 500;
+  }
+  #heroSection {
+    background-size: cover;
+    position: relative;
+    height: 750px;
+    width: 100%;
+  }
+  #heroRow {
+    height: 750px;
+    width: 100%;
+  }
+  #heroTitle {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px;
+    /* background-color: black; */
+    height: auto;
+  }
+  #topBodySection {
+    margin-top: 175px;
+  }
+}
+
+@media (max-width: 2000px) and (min-width: 1501px) {
+  #contactContainer {
+    min-height: 350px;
+    max-height: 550px;
+    width: 900px;
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    background-color: #191919;
+    padding: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+    z-index: 500;
+  }
+  #topBodySection {
+    margin-top: 50px;
+  }
+  .cardWidget {
+    text-align: center !important;
+    width: 300px;
+    overflow: hidden;
+  }
+  .cardWidget img {
+    max-height: 250px !important;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 1300px) {
+  #contactContainer {
+    min-height: 350px;
+    max-height: 450px;
+    width: 850px;
+    position: absolute;
+    bottom: -2%;
+    left: 19%;
+    background-color: #191919;
+    padding: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 13px rgba(154,160,185,.1), 0 18px 43px rgba(166,173,201,.3);
+    z-index: 500;
+  }
+  #contactContainer h1 {
+    margin-top: -20px;
+  }
+  #heroSection {
+    background-size: cover;
+    position: relative;
+    height: 550px;
+    width: 100%;
+  }
+  #heroRow {
+    height: 550px;
+    width: 100%;
+  }
+  #heroTitle {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -20px;
+  }
+  #topBodySection {
+    margin-top: 150px;
+  }
+  .cardWidget {
+    text-align: center !important;
+    width: 300px;
+    overflow: hidden;
+  }
+  .cardWidget img {
+    max-height: 250px !important;
+  }
+  .bodyContent {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 651px) {
+  #aboutSection {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    overflow: initial;
+    max-height: inherit;
+    margin: 0;
+  }
+  #contactContainer {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    overflow: initial;
+    max-height: inherit;
+    margin-top: -50px;
+  }
+  #aboutSection {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+    width: 110%;
+    padding: 0 15px 0 15px;
+  }
+  #aboutSection h2 {
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+  }
+  .bodyContent {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .layeredWhiteBox {
+    background-color: white;
+    padding: 5px;
+  }
+  .whiteCardboard p {
+    font-size: 1.5em;
+  }
+  .whiteCardboard h2 {
+    font-size: 3em;
+    margin-top: 200px;
+    display: inline-block;
+    width: inherit;
+    position: relative;
+    left: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .bodyContent {
+    margin: 0;
+  }
+  p {
+    text-align: justify;
+  }
+  .pt-2 p {
+    text-align: center;
+  }
+  #heroSection {
+    max-height: 400px;
+    overflow: none;
+    background-size: 100% no-repeat;
+  }
+  #heroTitleCol {
+    margin-top: -175px;
+  }
+  #contactContainer {
+    background: none;
+    background-color: #191919;
+    border-radius: 0;
+    padding: 5px;
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
+    overflow: initial;
+    max-height: inherit;
+    z-index: 500;
+  }
+  #contactContainer h1 {
+    margin-top: 0;
+    font-size: 3.5rem;
+    background-color: #2052b3;
+    border: 3px solid #112c61;
+    /* color: black; */
+  }
+  .layeredWhiteBox {
+    background-color: white;
+    padding: 5px;
+  }
+  #aboutSection {
+    overflow: hidden;
+  }
+  #bodyPG2 {
+    visibility: hidden;
+  }
+  #dividerContainer {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  #callUsHeader {
+    display: inline-block;
+    background-color: #2052b3;
+    height: 100%;
+    width: 350px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  #callUsHeader a {
+    color: white;
+  }
+  #callUsNumber {
+    display: inline-block;
+    background-color: #e00201;
+    height: 4rem;
+    width: 200px;
+    padding: 10px 0px;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    border-radius: 5px;
+  }
+  #callUsNumber a {
+    color: white;
+  }
+  .newLine {
+    display: block !important;
+  }
+  .big {
+    display: inline;
+  }
+  .serviceSection div {
+    margin: auto;
+  }
+  .cardWidget {
+    text-align: center !important;
+    width: 350px;
+    overflow: hidden;
+  }
+  .cardWidget img {
+    max-height: 300px !important;
+  }
+}
